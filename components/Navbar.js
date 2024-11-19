@@ -1,10 +1,13 @@
 // components/Navbar.js
+
+'use client';  // Adiciona esta linha para tornar o componente um componente de cliente
+
+import { useState } from 'react';
+import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
-import Link from 'next/link';
-import { useState } from 'react';
 
 export default function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false);
