@@ -1,1 +1,77 @@
-{}
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "João Silva",
+        "email": "joao.silva@example.com",
+        "password": "senha123"
+      },
+      {
+        "id": 2,
+        "name": "Maria Oliveira",
+        "email": "maria.oliveira@example.com",
+        "password": "senha456"
+      }
+    ],
+    "transactions": [
+      {
+        "id": 1,
+        "description": "Salário",
+        "amount": 2500,
+        "date": "2024-11-01",
+        "type": "income"
+      },
+      {
+        "id": 2,
+        "description": "Aluguel",
+        "amount": -800,
+        "date": "2024-11-05",
+        "type": "expense"
+      },
+      {
+        "id": 3,
+        "description": "Supermercado",
+        "amount": -300,
+        "date": "2024-11-10",
+        "type": "expense"
+      }
+    ],
+    "budgets": [
+      {
+        "id": 1,
+        "category": "Alimentação",
+        "amount": 1000
+      },
+      {
+        "id": 2,
+        "category": "Lazer",
+        "amount": 500
+      },
+      {
+        "id": 3,
+        "category": "Transporte",
+        "amount": 400
+      }
+    ],
+    "investments": [
+      {
+        "id": 1,
+        "type": "CDB",
+        "institution": "Banco X",
+        "amount": 2000,
+        "interestRate": 0.08,
+        "startDate": "2023-01-01",
+        "currentValue": 2200
+      },
+      {
+        "id": 2,
+        "type": "Ações",
+        "institution": "Banco Y",
+        "amount": 1000,
+        "interestRate": 0.12,
+        "startDate": "2023-06-15",
+        "currentValue": 1150
+      }
+    ]
+  }
+  
